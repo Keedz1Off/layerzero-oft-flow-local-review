@@ -63,11 +63,11 @@ INVARIANT
 ## combineOptions(...)
 
 ```text
-   1. Enforced options must stay in the final options .
+1. Enforced options must stay in the final options .
 
-   2.  A user must not remove (delete) the enforced options.
+2.  A user must not remove (delete) the enforced options.
 
-   3. enforced (options) and _extraOptions must have the same type  (SEND or SEND_AND_CALL)
+3. enforced (options) and _extraOptions must have the same type  (SEND or SEND_AND_CALL)
 
 
 
