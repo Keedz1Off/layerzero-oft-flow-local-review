@@ -42,7 +42,11 @@ INVARIANT
 
 ```text
 INVARIANT
+1. Burn must be executed before the message.
 
+2. Burned amount must match the encoded message.
+
+3. Tokens must be burned from the correct account.
 ```
 
 ## _buildMsgAndOptions(...)
