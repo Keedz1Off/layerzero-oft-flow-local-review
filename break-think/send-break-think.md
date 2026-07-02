@@ -102,5 +102,6 @@ INVARIANT
 
 ```text
 INVARIANT
+endpoint.send(...) must receive the verifited message and options.
 
 ```
