@@ -18,15 +18,3 @@ Payload layout:
 [recipient: 32 bytes][amountSD: 8 bytes][optional compose]
 ```
 
-## Invariants
-
-```text
-TODO: write main invariants here.
-```
-
-## Consequences
-
-```text
-TODO: write consequences here.
-```
-

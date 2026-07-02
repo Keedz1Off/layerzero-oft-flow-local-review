@@ -1,14 +1,16 @@
 # Break Think
 
-Break Think is my invariant consequence analysis.
+Break Think is my own invariant practice section.
 
 Simple meaning:
 
 ```text
-What happens if this invariant breaks?
+What invariant should hold for this function?
 ```
 
-This folder is for my own practice.
+This folder is intentionally left as a template.
+
+I will fill the invariants myself while reviewing the LayerZero OFT flow.
 
 Format:
 
@@ -17,20 +19,4 @@ FUNCTION
 
 INVARIANT
 ...
-
-CONSEQUENCES
-...
 ```
-
-The main focus is not to list every small rule.
-The main focus is to understand the most important security boundaries:
-
-```text
-amount
-recipient
-message authenticity
-trusted peer
-decimal conversion
-compose safety
-```
-

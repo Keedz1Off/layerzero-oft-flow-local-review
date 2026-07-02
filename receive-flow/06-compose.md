@@ -27,15 +27,3 @@ builds compose message
 sends compose through endpoint.sendCompose(...)
 ```
 
-## Invariants
-
-```text
-TODO: write main invariants here.
-```
-
-## Consequences
-
-```text
-TODO: write consequences here.
-```
-

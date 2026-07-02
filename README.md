@@ -2,7 +2,7 @@
 
 This repository is my local review of the LayerZero OFT flow.
 
-The goal of this repository is to understand the full token flow:
+The goal of this repository is to document and understand the full token flow:
 
 ```text
 source-chain debit/burn
@@ -17,8 +17,8 @@ My review method:
 
 ```text
 Understand the flow
--> define invariants
--> think what happens if an invariant breaks
+-> write function notes
+-> fill Break Think manually
 ```
 
 ## Repository Structure
@@ -79,17 +79,9 @@ _lzReceive(...)
 └── optional compose path
 ```
 
-## Core Security Ideas
+## Break Think
 
-```text
-Burn/debit on source chain must equal credit/mint on destination chain.
+The `break-think/` folder contains empty invariant templates.
 
-Encoded recipient must equal decoded recipient.
-
-Only an authentic LayerZero message from a trusted peer should trigger credit/mint.
-
-Decimal conversion must preserve the economic amount.
-
-Compose execution must not break the token credit flow.
-```
+I will fill these manually while reviewing each function.
 

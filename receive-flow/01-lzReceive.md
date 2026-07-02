@@ -45,15 +45,3 @@ optionally sends compose message
 emits receive event
 ```
 
-## Invariants
-
-```text
-TODO: write main invariants here.
-```
-
-## Consequences
-
-```text
-TODO: write consequences here.
-```
-

@@ -21,15 +21,3 @@ _payNative(...) does not calculate the fee.
 It only checks msg.value == _nativeFee.
 ```
 
-## Invariants
-
-```text
-TODO: write main invariants here.
-```
-
-## Consequences
-
-```text
-TODO: write consequences here.
-```
-

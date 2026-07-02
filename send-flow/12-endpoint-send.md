@@ -31,15 +31,3 @@ fee mode
 refund address
 ```
 
-## Invariants
-
-```text
-TODO: write main invariants here.
-```
-
-## Consequences
-
-```text
-TODO: write consequences here.
-```
-

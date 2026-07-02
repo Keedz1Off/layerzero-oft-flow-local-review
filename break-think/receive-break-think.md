@@ -5,18 +5,12 @@
 ```text
 INVARIANT
 
-
-CONSEQUENCES
-
 ```
 
 ## sendTo(...)
 
 ```text
 INVARIANT
-
-
-CONSEQUENCES
 
 ```
 
@@ -25,18 +19,12 @@ CONSEQUENCES
 ```text
 INVARIANT
 
-
-CONSEQUENCES
-
 ```
 
 ## _toLD(...)
 
 ```text
 INVARIANT
-
-
-CONSEQUENCES
 
 ```
 
@@ -45,9 +33,6 @@ CONSEQUENCES
 ```text
 INVARIANT
 
-
-CONSEQUENCES
-
 ```
 
 ## compose path
@@ -55,8 +40,4 @@ CONSEQUENCES
 ```text
 INVARIANT
 
-
-CONSEQUENCES
-
 ```
-

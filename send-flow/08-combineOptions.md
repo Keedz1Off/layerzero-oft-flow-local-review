@@ -41,15 +41,3 @@ extraOptions: [TYPE_3][user options]
 final:        [TYPE_3][required options][user options]
 ```
 
-## Invariants
-
-```text
-TODO: write main invariants here.
-```
-
-## Consequences
-
-```text
-TODO: write consequences here.
-```
-

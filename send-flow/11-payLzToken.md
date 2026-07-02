@@ -24,15 +24,3 @@ check it is not address(0)
 transfer LZ token fee from user to endpoint
 ```
 
-## Invariants
-
-```text
-TODO: write main invariants here.
-```
-
-## Consequences
-
-```text
-TODO: write consequences here.
-```
-

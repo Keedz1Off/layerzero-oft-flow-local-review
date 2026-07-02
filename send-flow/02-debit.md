@@ -39,15 +39,3 @@ _burn(_from, amountSentLD);
 
 Actually burns the source-chain tokens.
 
-## Invariants
-
-```text
-TODO: write main invariants here.
-```
-
-## Consequences
-
-```text
-TODO: write consequences here.
-```
-

@@ -58,15 +58,3 @@ msgReceipt = _lzSend(...);
 
 Sends the message to the LayerZero Endpoint.
 
-## Invariants
-
-```text
-TODO: write main invariants here.
-```
-
-## Consequences
-
-```text
-TODO: write consequences here.
-```
-

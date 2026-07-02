@@ -24,15 +24,3 @@ amountLD = 1,000,000 * 10 ** 12
 amountLD = 1 token with 18 decimals
 ```
 
-## Invariants
-
-```text
-TODO: write main invariants here.
-```
-
-## Consequences
-
-```text
-TODO: write consequences here.
-```
-

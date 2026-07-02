@@ -5,18 +5,12 @@
 ```text
 INVARIANT
 
-
-CONSEQUENCES
-
 ```
 
 ## _debit(...)
 
 ```text
 INVARIANT
-
-
-CONSEQUENCES
 
 ```
 
@@ -25,18 +19,12 @@ CONSEQUENCES
 ```text
 INVARIANT
 
-
-CONSEQUENCES
-
 ```
 
 ## _removeDust(...)
 
 ```text
 INVARIANT
-
-
-CONSEQUENCES
 
 ```
 
@@ -45,18 +33,12 @@ CONSEQUENCES
 ```text
 INVARIANT
 
-
-CONSEQUENCES
-
 ```
 
 ## _buildMsgAndOptions(...)
 
 ```text
 INVARIANT
-
-
-CONSEQUENCES
 
 ```
 
@@ -65,18 +47,12 @@ CONSEQUENCES
 ```text
 INVARIANT
 
-
-CONSEQUENCES
-
 ```
 
 ## combineOptions(...)
 
 ```text
 INVARIANT
-
-
-CONSEQUENCES
 
 ```
 
@@ -85,18 +61,12 @@ CONSEQUENCES
 ```text
 INVARIANT
 
-
-CONSEQUENCES
-
 ```
 
 ## _payNative(...)
 
 ```text
 INVARIANT
-
-
-CONSEQUENCES
 
 ```
 
@@ -105,9 +75,6 @@ CONSEQUENCES
 ```text
 INVARIANT
 
-
-CONSEQUENCES
-
 ```
 
 ## endpoint.send(...)
@@ -115,8 +82,4 @@ CONSEQUENCES
 ```text
 INVARIANT
 
-
-CONSEQUENCES
-
 ```
-

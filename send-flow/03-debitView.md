@@ -50,15 +50,3 @@ if (amountReceivedLD < _minAmountLD) revert SlippageExceeded(...);
 
 Protects the user from receiving less than expected.
 
-## Invariants
-
-```text
-TODO: write main invariants here.
-```
-
-## Consequences
-
-```text
-TODO: write consequences here.
-```
-

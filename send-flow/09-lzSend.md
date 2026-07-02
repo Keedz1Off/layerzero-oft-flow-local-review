@@ -34,15 +34,3 @@ optionally pays LZ token fee
 calls endpoint.send(...)
 ```
 
-## Invariants
-
-```text
-TODO: write main invariants here.
-```
-
-## Consequences
-
-```text
-TODO: write consequences here.
-```
-

@@ -38,15 +38,3 @@ _update(account, address(0), value);
 
 Moves tokens from `account` to `address(0)`, which means burn.
 
-## Invariants
-
-```text
-TODO: write main invariants here.
-```
-
-## Consequences
-
-```text
-TODO: write consequences here.
-```
-

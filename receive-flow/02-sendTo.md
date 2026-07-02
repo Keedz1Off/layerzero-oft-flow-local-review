@@ -20,15 +20,3 @@ Payload layout:
 
 So `sendTo(...)` reads the first 32 bytes.
 
-## Invariants
-
-```text
-TODO: write main invariants here.
-```
-
-## Consequences
-
-```text
-TODO: write consequences here.
-```
-
