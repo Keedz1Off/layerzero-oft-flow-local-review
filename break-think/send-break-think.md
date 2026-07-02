@@ -19,22 +19,11 @@ INVARIANT
 
 ```text
 INVARIANT
+1. The amountSentLD equal amountReceivedLD.
 
+2. amountSentLD must be burned on the source chain.
 
-```
-
-## _debitView(...)
-
-```text
-INVARIANT
-
-```
-
-## _removeDust(...)
-
-```text
-INVARIANT
-
+3. amountReceivedLD must be encoded to create a message. 
 ```
 
 ## _burn(...)
@@ -69,7 +58,11 @@ INVARIANT
 ## combineOptions(...)
 
 ```text
-INVARIANT
+   1. Enforced options must stay in the final options .
+
+   2.  A user must not remove (delete) the enforced options.
+
+
 
 ```
 
@@ -84,17 +77,7 @@ INVARIANT
 2. The message must be sent to the correct destinqation chain ( _dstEid ).
 ```
 
-## _payNative(...)
 
-```text
-INVARIANT
-
-```
-
-## _payLzToken(...)
-
-```text
-INVARIANT
 
 ```
 
