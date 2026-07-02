@@ -1,5 +1,6 @@
 # Send Flow Break Think
 
+Here is most important functions.
 ## send(...)
 
 ```text
@@ -52,7 +53,11 @@ INVARIANT
 
 ```text
 INVARIANT
+1. The encoded data must keep the correct recicpient.
 
+2. The encoded data must keep the correct amount.
+
+3. Compose data must be encoded only when composeMsg exits.
 ```
 
 ## combineOptions(...)
@@ -61,6 +66,8 @@ INVARIANT
    1. Enforced options must stay in the final options .
 
    2.  A user must not remove (delete) the enforced options.
+
+   3. enforced (options) and _extraOptions must have the same type  (SEND or SEND_AND_CALL)
 
 
 
@@ -77,9 +84,6 @@ INVARIANT
 2. The message must be sent to the correct destinqation chain ( _dstEid ).
 ```
 
-
-
-```
 
 ## endpoint.send(...)
 
