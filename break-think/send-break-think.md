@@ -77,7 +77,11 @@ INVARIANT
 
 ```text
 INVARIANT
+1. Fee must be paid before the endpoint.send()
 
+2. The message must be sent to the trusted contract
+
+2. The message must be sent to the correct destinqation chain ( _dstEid ).
 ```
 
 ## _payNative(...)
