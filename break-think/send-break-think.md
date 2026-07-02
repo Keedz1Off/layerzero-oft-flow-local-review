@@ -20,7 +20,6 @@ INVARIANT
 ```text
 INVARIANT
 
-dza
 
 ```
 
@@ -53,7 +52,11 @@ INVARIANT
 
 ```text
 INVARIANT
+1. The message must encode the correct amount and recipient (receiver)
 
+2. msgType must be SEND_AND_CALL if composeMsg exits.
+
+3. Final options must include all enforced options.
 ```
 
 ## OFTMsgCodec.encode(...)
