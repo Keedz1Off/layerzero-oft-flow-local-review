@@ -11,5 +11,7 @@ INVARIANT
 
 3. The decoded amount must match the recipient that was encoded on source chain.
 
+4. Compose execution must be happen only when composeMsg exits.
+
 
 ```
