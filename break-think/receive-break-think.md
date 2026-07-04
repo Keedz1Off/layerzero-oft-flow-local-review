@@ -1,43 +1,17 @@
 # Receive Flow Break Think
-
+Here is most important functions.
 ## _lzReceive(...)
 
 ```text
 INVARIANT
 
-```
+1. Only authentic LZ message from the trusted contract can trigger _lzReceive().
 
-## sendTo(...)
+2. The decoded recipient must match the recipient that was encoded on source chain.
 
-```text
-INVARIANT
+3. The decoded amount must match the recipient that was encoded on source chain.
 
-```
+4. Compose execution must be happen only when composeMsg exits.
 
-## amountSD(...)
-
-```text
-INVARIANT
-
-```
-
-## _toLD(...)
-
-```text
-INVARIANT
-
-```
-
-## _credit(...)
-
-```text
-INVARIANT
-
-```
-
-## compose path
-
-```text
-INVARIANT
 
 ```
