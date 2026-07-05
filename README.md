@@ -1,7 +1,4 @@
-
 <img width="1983" height="793" alt="image" src="https://github.com/user-attachments/assets/af35f126-f541-49c5-a410-9c8c71c6476d" />
-
-
 
 # LayerZero OFT Flow Local Review
 
@@ -55,38 +52,57 @@ break-think/
   README.md
   send-break-think.md
   receive-break-think.md
+
+exploit-labs/
+  README.md
+  01-send-without-burn.md
+  02-buildMsgAndOptions-wrong-payload.md
+  03-lzSend-wrong-peer.md
+  04-lzReceive-fake-message-mint.md
 ```
 
 ## Main Flow
 
 ```text
 send(...)
-├── _debit(...)
-│   ├── _debitView(...)
-│   │   └── _removeDust(...)
-│   └── _burn(...)
-├── _buildMsgAndOptions(...)
-│   ├── OFTMsgCodec.encode(...)
-│   ├── combineOptions(...)
-│   └── msgInspector.inspect(...)
-└── _lzSend(...)
-    ├── _payNative(...)
-    ├── _payLzToken(...)
-    └── endpoint.send(...)
+|-- _debit(...)
+|   |-- _debitView(...)
+|   |   `-- _removeDust(...)
+|   `-- _burn(...)
+|-- _buildMsgAndOptions(...)
+|   |-- OFTMsgCodec.encode(...)
+|   |-- combineOptions(...)
+|   `-- msgInspector.inspect(...)
+`-- _lzSend(...)
+    |-- _payNative(...)
+    |-- _payLzToken(...)
+    `-- endpoint.send(...)
 
 LayerZero delivery
 
 _lzReceive(...)
-├── sendTo()
-├── amountSD()
-├── _toLD(...)
-├── _credit(...)
-└── optional compose path
+|-- sendTo()
+|-- amountSD()
+|-- _toLD(...)
+|-- _credit(...)
+`-- optional compose path
 ```
 
 ## Break Think
 
-The `break-think/` folder contains empty invariant templates.
+The `break-think/` folder contains invariant templates and my manual invariant practice.
 
-I will fill these manually while reviewing each function.
+## Exploit Labs
 
+The `exploit-labs/` folder contains practical exploit-style notes for the core LayerZero/OFT functions.
+
+Each lab includes:
+
+```text
+Broken Version
+PoC
+Broken Invariant
+Exploit Path
+Impact
+Fixed Version
+```
